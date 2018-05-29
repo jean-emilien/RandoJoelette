@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context="fr.je_robert.randojoelette.accountActivity">
+
+   <!--
+   <ListView
+        android:id="@+id/activity_account_listview"
+        style="@style/Widget.AppCompat.ListView.Menu"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:scrollbars="vertical"
+        android:textAlignment="center">
+    </ListView> -->
+
+        <Spinner
+            android:id="@+id/activity_account_listspinner"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:scrollbars="vertical"
+            android:textAlignment="center" />
+
+
+    <TextView
+        android:id="@+id/activity_account_viewafirstname"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Nom" />
+
+ <EditText
+     android:id="@+id/activity_account_editfirstname"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="#FAFAFA"
+     android:ems="10"
+     android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/activity_account_viewalastname"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Prénom"/>
+
+    <EditText
+        android:id="@+id/activity_account_editlastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FAFAFA"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/activity_account_viewaaddr"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Adresse" />
+
+    <EditText
+        android:id="@+id/activity_account_editaddr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FAFAFA"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+    <TextView
+        android:id="@+id/activity_account_viewaaddrcode"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Code postal" />
+
+    <EditText
+        android:id="@+id/activity_account_editaddrcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#FAFAFA"
+        android:inputType="textPostalAddress" />
+    <TextView
+        android:id="@+id/activity_account_viewaaddrville"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Ville" />
+
+    <EditText
+        android:id="@+id/activity_account_editaddrville"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FAFAFA"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+    <TextView
+        android:id="@+id/activity_account_viewphone"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Téléphone" />
+
+    <EditText
+        android:id="@+id/activity_account_editphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FAFAFA"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/activity_account_btnvalidate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valider" />
+
+
+</LinearLayout>

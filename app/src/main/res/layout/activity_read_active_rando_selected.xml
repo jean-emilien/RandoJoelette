@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context="fr.je_robert.randojoelette.read_active_rando_selectedActivity">
+
+
+    <TextView
+        android:id="@+id/activity_read_active_rando_selected_viewrandonnee"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Randonnée_selectionné_depuis_la_bdd" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Date"/>
+
+    <TextView
+        android:id="@+id/activity_read_active_rando_selected_viewdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BDBDBD"
+        android:ems="10"
+        android:text="Date_selectionné_depuis_la_bdd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Lieu"/>
+
+    <TextView
+        android:id="@+id/activity_read_active_rando_selected_viewlieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BDBDBD"
+        android:ems="10"
+        android:text="Lieu_selectionné_depuis_la_bdd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Nb de participant requis" />
+
+    <TextView
+        android:id="@+id/activity_read_active_rando_selected_viewnbpartrequis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BDBDBD"
+        android:ems="10"
+        android:text="Nb de participant requis_selectionné_depuis_la_bdd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Nb de particiapant ayant accepté" />
+
+    <TextView
+        android:id="@+id/activity_read_active_rando_selected_viewanbpartaccept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BDBDBD"
+        android:ems="10"
+        android:text="Nb de participant ayant accepté__selectionné_depuis_la_bdd" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Echéance de réponse" />
+
+    <TextView
+        android:id="@+id/activity_read_active_rando_selected_viewdeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BDBDBD"
+        android:ems="10"
+        android:text="Echeance de réponse_selectionné_depuis_la_bdd"/>
+
+    <Button
+        android:id="@+id/activity_read_active_rando_selected_btnvalidate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valider" />
+
+
+</LinearLayout>

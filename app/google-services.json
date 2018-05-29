@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "683353672499",
+    "firebase_url": "https://randojoelette.firebaseio.com",
+    "project_id": "randojoelette",
+    "storage_bucket": "randojoelette.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683353672499:android:8a25d82c7a6d4a29",
+        "android_client_info": {
+          "package_name": "fr.je_robert.randojoelette"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683353672499-7stduq8i9lp0lmuptbeedjtb9eh7b7c1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.je_robert.randojoelette",
+            "certificate_hash": "8d16c3ad07ba2f2881768de00527ea546ecb4401"
+          }
+        },
+        {
+          "client_id": "683353672499-eksi5m777qr6ie2i86hl8rfgohqmcril.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQRVTi0tV5GDxLVvCyYFTNNcihQk4EqQs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683353672499-eksi5m777qr6ie2i86hl8rfgohqmcril.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

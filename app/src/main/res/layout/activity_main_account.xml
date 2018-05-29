@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context="fr.je_robert.randojoelette.Main_accountActivity">
+
+    <TextView
+        android:id="@+id/activity_main_account_viewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Menu"
+    />
+
+
+    <TextView
+        android:id="@+id/activity_main_account_viewmyinfo"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Mes infos" />
+
+
+    <TextView
+        android:id="@+id/activity_main_account_viewmyrando"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Mes randonnées" />
+
+    <TextView
+        android:id="@+id/activity_main_viewopenrando"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:text="Les randonnées ouvertes" />
+
+</LinearLayout>
